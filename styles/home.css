@@ -6,6 +6,7 @@
     grid-template-areas: 
     'header header'
     'left right'
+
 }
 
 header{
@@ -14,18 +15,22 @@ header{
 
 #bg{
     grid-area: left;
-
-    background: url('/assets/home-bg-img.png') no-repeat top/contain;
+    background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background-position-x: -6rem;
 }
 
 main{
     grid-area: right;
+
     display: flex;
     align-items: center;
+    
+    width: 80%;
+    
 }
 
 main.container{
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2{
