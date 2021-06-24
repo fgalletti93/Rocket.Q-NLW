@@ -20,6 +20,7 @@ html{
     --grey-dark:#4D5E77;
     --grey-blue:#A1B2CD;
     --grey-light:#E5EAF1;
+    --grey-medium: #eaecf2;
 
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
@@ -84,6 +85,13 @@ button:hover, .button:hover{
 button > img, .button > img{
     margin-right: 1rem;
     width: 2rem;
+}
+
+button.outlined,
+.button.outlined{
+    background: var(--white);
+    color: var(--blue);
+    border: .2rem solid var(--blue);
 }
 
 .content header{
