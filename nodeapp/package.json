@@ -1,0 +1,13 @@
+{
+    "name": "RocketQ",
+    "version": "1.0.0",
+    "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Criado na semana NLW Rocketseat na missão discover.",
+    "main": "index.js",
+    
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Francesca Galletti",
+    "license": "ISC"
+}
